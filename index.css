@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #ecf8f8;
     margin: 50px;
-    overflow: hidden;
+    scroll-behavior: smooth;
   }
 
  
@@ -248,6 +248,10 @@ body {
 /* --- media q's -- */
 
 @media (min-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    
     .grid-container {
         display: grid;    
         grid-template-columns: repeat(3, 1fr);
