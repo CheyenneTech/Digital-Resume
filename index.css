@@ -113,9 +113,13 @@ body {
 .grid-container .icons i {
     padding: 2px;
     text-decoration: none;
-    
+    color: #ffffffcc;
+    cursor: pointer;
 }
 
+.grid-container .icons i:hover {
+    color: #252525;
+}
 
 .info img {
     
@@ -134,6 +138,9 @@ body {
     margin: 0;
     padding-left: 16%;
     text-transform: uppercase;
+    color: #ffffffcc;
+    
+    
 }
 
 
