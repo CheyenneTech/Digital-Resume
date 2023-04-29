@@ -173,7 +173,7 @@ body {
 /* --- tech skills -- */
 
 .grid-container .tech-skills {
-    background-color: #e2e2e2e2;
+    background-color: #f9bc7c1e;
     box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
     border-radius: 15px;
     padding-left: 30px;
@@ -188,7 +188,7 @@ body {
 /* --- profesh experience-- */
 
 .grid-container .professional-experience {
-    background-color: #e2e2e2e2;
+    background-color: #f9bc7c1e;
     box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
     border-radius: 15px;
     padding-left: 30px;
@@ -202,7 +202,7 @@ body {
 /* --- degrees & certs -- */
 
 .grid-container .degrees-certifications {
-    background-color: #e2e2e2e2;
+    background-color: #f9bc7c1e;
     box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
     border-radius: 15px;
     padding-left: 30px;
