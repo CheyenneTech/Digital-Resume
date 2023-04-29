@@ -93,7 +93,7 @@ body {
 /* -- 1st box with name, title, and socials -- */
 
 .grid-container .info {
-    background-color: #EEE4E1;
+    background-color: #db9999;
     box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
     border-radius: 15px;
     padding-left: 13px;
@@ -166,7 +166,7 @@ body {
 /* --- tech skills -- */
 
 .grid-container .tech-skills {
-    background-color: #db9999;
+    background-color: #e2e2e2e2;
     box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
     border-radius: 15px;
     padding-left: 30px;
@@ -209,7 +209,7 @@ body {
 /* --- languages -- */
 
 .grid-container .languages-frameworks {
-    background-color: #db9999;
+    background-color: #E6BEAE;
     box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
     border-radius: 15px;
     padding-left: 30px;
@@ -223,7 +223,7 @@ body {
 /* --- about -- */
 
 .grid-container .about-me {
-    background-color: #EEE4E1;
+    background-color: #db9999;
     
     box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
     border-radius: 15px;
