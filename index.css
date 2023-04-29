@@ -88,7 +88,10 @@ body {
     transform: translateY(1px);
   }
 
-
+  .new-window-btn a {
+    text-decoration: none;
+    color: #252525;
+  }
 
 /* -- 1st box with name, title, and socials -- */
 
@@ -182,6 +185,10 @@ body {
 .tech-skills h1 {
     text-transform: uppercase;
     font-weight: 100;
+}
+
+.grid-container#blur.active {
+    filter: blur(20px);
 }
 
 
