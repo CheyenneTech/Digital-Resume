@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #ecf8f8;
+    background-color: #dadbdba3;
     margin: 50px;
     scroll-behavior: smooth;
   }
@@ -138,7 +138,7 @@ body {
     margin: 0;
     padding-left: 16%;
     text-transform: uppercase;
-    color: #ffffffcc;
+    color: #252525;
     
     
 }
@@ -288,4 +288,20 @@ body {
 
 @media (min-width: 1200px) {
     
+
+    .info h1 {
+        font-size: 30px;
+    }
+
+    .info h4 {
+        font-size: 13px;
+    }
+
+    .icon {
+        font-size: 23px;
+    }
+
+    .info img {
+        max-width: 120px;
+    }
 }
