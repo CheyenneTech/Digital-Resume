@@ -32,8 +32,7 @@ body {
     cursor: pointer;
     outline: none;
     background-color: #fcfcfdac;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
     padding: 0;
     margin: 0;
     height: 20px;
@@ -176,9 +175,7 @@ body {
     font-weight: 100;
 }
 
-.grid-container#blur.active {
-    filter: blur(20px);
-}
+
 
 
 /* --- profesh experience-- */
@@ -250,6 +247,53 @@ body {
 .designs h1 {
     text-transform: uppercase;
     font-weight: 100;
+}
+
+
+/* pop up boxes */
+
+#skills-pop-up-box {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+#skills-pop-up-box.active {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
+}
+
+#experience-pop-up-box {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0px 3px 6px 0.5px rgba(62, 66, 66, 0.286);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+#experience-pop-up-box.active {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    top: 50%;
 }
 
 /* --- media q's -- */
