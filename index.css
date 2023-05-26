@@ -390,7 +390,7 @@ body {
 
 /* --- media q's -- */
 
-@media (min-width:480px) {
+@media (min-width:300px) {
     /* pop up boxes */
 
 #skills-pop-up-box {
