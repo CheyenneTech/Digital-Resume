@@ -10,9 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
+<div class="overlay" onclick="toggle('blur')"></div>
 <main class="grid-container" id="blur">
     
     <!--holds socials, name, and title-->
@@ -30,53 +32,92 @@
             <button class="icon"><a href="https://github.com/CheyenneTech"><i class="fa-brands fa-github"></i></a></button>
         </div>
     </article>
+
+
+
+
     <!-- projects -->
     <article class="grid-item grid-item-2 grid-span-2 projects" >
         <h1>Projects</h1>
         <button class="new-window-btn"><a href="/Projects-Page/projects.html"><i class="fa fa-heart"></i></a></button>
     </article>
 
+
+
+
+
     <!-- technical skills -->
     <article class="grid-item grid-item-3 tech-skills">
-            <button class="pop-up-box-btn" href="#" onclick="toggle()">⁺</button>
+            <button class="pop-up-box-btn" href="#" onclick="toggle('skills-pop-up-box')">⁺</button>
             <h1>Technical Skills</h1>
     </article>
 
     <div class="skill-popup" id="skills-pop-up-box">
         <h2>skills</h2>
         <p>some more stuff</p>
-        <a href="#" onclick="toggle()">Close</a>
+        <a href="#" onclick="toggle('skills-pop-up-box')">Close</a>
     </div>
+
+
+
+
 
     <!-- profesh experience -->
     <article class="grid-item grid-item-4 professional-experience">
-        <button class="pop-up-box-btn" href="#" onclick="toggle()">⁺</button>
+        <button class="pop-up-box-btn" href="#" onclick="toggle('experience-pop-up-box')">⁺</button>
         <h1>Professional Experience</h1>
     </article>
     <div class="experience-popup" id="experience-pop-up-box">
         <h2>experience</h2>
         <p>some more stuff</p>
-        <a href="#" onclick="toggle()">Close</a>
+        <a href="#" onclick="toggle('experience-pop-up-box')">Close</a>
     </div>
+
+
+
 
     <!-- degrees and certs -->
     <article class="grid-item grid-item-5 degrees-certifications">
-        <button class="pop-up-box-btn" href="#" onclick="toggle()">⁺</button>
+        <button class="pop-up-box-btn" href="#" onclick="toggle('deg-cert-pop-up-box')">⁺</button>
         <h1>Degrees & Certificates</h1>
     </article>
+    <div class="deg-cert-popup" id="deg-cert-pop-up-box">
+        <h2>degrees & certs</h2>
+        <p>some more stuff</p>
+        <a href="#" onclick="toggle('deg-cert-pop-up-box')">Close</a>
+    </div>
+
+
+
 
     <!-- languages and frameworks -->
     <article class="grid-item grid-item-6 grid-span-2 languages-frameworks">
-        <button class="pop-up-box-btn" href="#" onclick="toggle()">⁺</button>
+        <button class="pop-up-box-btn" href="#" onclick="toggle('lang-frmwrks-pop-up-box')">⁺</button>
             <h1>Languages & Frameworks</h1>
     </article>
+    <div class="lang-frmwrks-popup" id="lang-frmwrks-pop-up-box">
+        <h2>lang/frmwks</h2>
+        <p>some more stuff</p>
+        <a href="#" onclick="toggle('lang-frmwrks-pop-up-box')">Close</a>
+    </div>
+
+
+
 
     <!-- abt me -->
     <article class="grid-item grid-item-7 about-me">
-        <button class="pop-up-box-btn" href="#" onclick="toggle()">⁺</button>
+        <button class="pop-up-box-btn" href="#" onclick="toggle('about-pop-up-box')">⁺</button>
         <h1>About Me</h1>
             
     </article>
+    <div class="about-popup" id="about-pop-up-box">
+        <h2>about</h2>
+        <p>some more stuff</p>
+        <a href="#" onclick="toggle('about-pop-up-box')">Close</a>
+    </div>
+
+
+
 
     <!-- designs 
     <article class="grid-item grid-item-8 designs">
