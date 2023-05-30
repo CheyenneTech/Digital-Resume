@@ -190,8 +190,22 @@ body {
     font-weight: 100;
 }
 
+.skill-popup {
+    border-radius: 15px;
+}
 
+#skills-pop-up-box p {
+    font-size: 15px;
+}
+#skills-pop-up-box a {
+    text-decoration: none;
+    position: absolute;
+    top: 4%;
+    left: 80%;
+    font-size: 30px;
+    color: #db9999;
 
+}
 
 /* --- profesh experience-- */
 
@@ -205,6 +219,23 @@ body {
 .professional-experience h1 {
     text-transform: uppercase;
     font-weight: 100;
+}
+
+.experience-popup {
+    border-radius: 15px;
+}
+
+#experience-pop-up-box p {
+    font-size: 15px;
+}
+#experience-pop-up-box a {
+    text-decoration: none;
+    position: absolute;
+    top: 4%;
+    left: 80%;
+    font-size: 30px;
+    color: #db9999;
+
 }
 
 /* --- degrees & certs -- */
@@ -221,6 +252,23 @@ body {
     font-weight: 100;
 }
 
+.deg-cert-popup {
+    border-radius: 15px;
+}
+
+#deg-cert-pop-up-box p {
+    font-size: 15px;
+}
+#deg-cert-pop-up-box a {
+    text-decoration: none;
+    position: absolute;
+    top: 4%;
+    left: 80%;
+    font-size: 30px;
+    color: #db9999;
+
+}
+
 /* --- languages -- */
 
 .grid-container .languages-frameworks {
@@ -233,6 +281,23 @@ body {
 .languages-frameworks h1 {
     text-transform: uppercase;
     font-weight: 100;
+}
+
+.lang-frmwrks-popup {
+    border-radius: 15px;
+}
+
+#lang-frmwrks-pop-up-box p {
+    font-size: 15px;
+}
+#lang-frmwrks-pop-up-box a {
+    text-decoration: none;
+    position: absolute;
+    top: 4%;
+    left: 80%;
+    font-size: 30px;
+    color: #db9999;
+
 }
 
 /* --- about -- */
@@ -250,7 +315,24 @@ body {
     font-weight: 100;
 }
 
-/* --- design portfolio -- */
+.about-popup {
+    border-radius: 15px;
+}
+
+#about-pop-up-box p {
+    font-size: 15px;
+}
+#about-pop-up-box a {
+    text-decoration: none;
+    position: absolute;
+    top: 4%;
+    left: 80%;
+    font-size: 30px;
+    color: #db9999;
+
+}
+
+/* --- design portfolio 
 
 .grid-container .designs {
     background-color: #E6BEAE;
@@ -263,7 +345,7 @@ body {
     text-transform: uppercase;
     font-weight: 100;
 }
-
+-- */
 
 /* pop up boxes */
 
