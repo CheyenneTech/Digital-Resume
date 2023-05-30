@@ -270,6 +270,23 @@ body {
 #deg-cert-pop-up-box h2 {
     text-transform: uppercase;
     font-size: 18px;
+    
+}
+
+#deg-cert-pop-up-box h3 {
+    margin-bottom: -10px;
+    font-size: 19px;
+    
+}
+
+#deg-cert-pop-up-box h6 {
+    margin-bottom: -10px;
+    font-size: 8px;
+}
+
+#deg-cert-pop-up-box h5 {
+    font-size: 10px;
+    
 }
 
 #deg-cert-pop-up-box p {
