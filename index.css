@@ -190,9 +190,7 @@ body {
     font-weight: 100;
 }
 
-.skill-popup {
-    border-radius: 15px;
-}
+
 
 #skills-pop-up-box p {
     font-size: 15px;
@@ -221,12 +219,23 @@ body {
     font-weight: 100;
 }
 
-.experience-popup {
-    border-radius: 15px;
+#experience-pop-up-box h3 {
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+
+#experience-pop-up-box h4 {
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+
+#experience-pop-up-box h6 {
+    font-size: 8px;
 }
 
 #experience-pop-up-box p {
-    font-size: 15px;
+    font-size: 10px;
+    
 }
 #experience-pop-up-box a {
     text-decoration: none;
@@ -252,9 +261,7 @@ body {
     font-weight: 100;
 }
 
-.deg-cert-popup {
-    border-radius: 15px;
-}
+
 
 #deg-cert-pop-up-box p {
     font-size: 15px;
@@ -283,9 +290,7 @@ body {
     font-weight: 100;
 }
 
-.lang-frmwrks-popup {
-    border-radius: 15px;
-}
+
 
 #lang-frmwrks-pop-up-box p {
     font-size: 15px;
@@ -362,6 +367,7 @@ body {
     opacity: 0;
     transition: 0.5s;
     z-index: 100;
+    border-radius: 15px;
     
 }
 
@@ -387,6 +393,7 @@ body {
     opacity: 0;
     transition: 0.5s;
     z-index: 100;
+    border-radius: 15px;
     
 }
 
@@ -411,6 +418,7 @@ body {
     opacity: 0;
     transition: 0.5s;
     z-index: 100;
+    border-radius: 15px;
     
 }
 
@@ -435,6 +443,7 @@ body {
     opacity: 0;
     transition: 0.5s;
     z-index: 100;
+    border-radius: 15px;
     
 }
 
@@ -459,7 +468,7 @@ body {
     opacity: 0;
     transition: 0.5s;
     z-index: 100;
-    
+    border-radius: 15px;
 }
 
 #about-pop-up-box.active {
